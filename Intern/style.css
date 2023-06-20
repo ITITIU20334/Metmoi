@@ -1,0 +1,256 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 9px;
+    background-color: white;
+    color: gray;
+    text-decoration: none;
+  }
+  lu {
+    float: left;
+    
+  }
+  lu a {
+    display: block;
+    padding: 8px;
+    background-color: white;
+    color:black;
+    text-decoration: none;
+    padding-inline: 2em;
+    font-size: 20px; 
+  }
+  .Icongachduoi{
+    float: left;
+    width: 25px;
+    height: 20px;
+    border-radius: 20px;
+    display: block;
+    padding: 9px;
+    object-fit: cover;
+  }
+  .Iconbacham{
+    float: left;
+    width: 25px;
+    height: 20px;
+    border-radius: 20px;
+    display: block;
+    padding: 9px;
+    object-fit: cover;
+    padding-right: 4em;
+}
+  .find{
+    height: 40px;
+    border: 1px;
+    border-style: solid;
+    width: 380px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+}
+.timkiem{
+    margin-left: 20px;
+    margin-right: 50px;
+    width: 250px;
+    border: none;
+    
+}
+input:focus
+{
+    outline: none;
+}
+ls{
+    float: right;
+}
+ls a {
+    display: block;
+    padding: 9px;
+    background-color: white;
+    color: gray;
+    text-decoration: none;
+    text-align: right;
+  }
+  .Iconnguoi{
+    float: right;
+    width: 25px;
+    height: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 9px;
+    object-fit: cover;
+}
+.Iconchuongtb{
+    float: right;
+    width: 25px;
+    height: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 9px;
+    object-fit: cover;
+  }
+.menu-left{
+    height: 70px;
+    border-bottom: 1px solid;
+    border-color: gray;
+    
+}
+.Iconcompass{
+    width: 13px;
+    height: 13px;
+    border-radius:10px;
+    padding: 10px;
+    padding-top: 1em;
+}
+.Iconstar{
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 1em;
+}
+.Iconmess{
+    width: 13px;
+    height: 13px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 1em; 
+}
+.menu-right{
+    height: 50px;
+    border-right: 1px solid;
+border-color: gray;
+    
+}
+body
+{
+    height: 550px;
+}
+.main
+{
+    height: 100%;
+  
+    display: flex;
+    
+}
+.menu-main-left
+{
+    width: 100px;
+    border-right: 1px solid;
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.menu-main-left-top
+{
+    position: absolute;
+    top: 0;
+}
+.menu-main-left-bottom
+{
+    position: absolute;
+    bottom: 0;
+
+
+}
+.menu-main-right
+{
+    height: 100%;
+ 
+    width: 100%;
+}
+.Iconstock{
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 1em;
+}
+.Iconearth{
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 1em;
+}
+.Iconchart{
+    width: 13px;
+    height: 13px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 1em;
+}
+.listtasks{
+    float: left;
+    width: 25px;
+    height: 20px;
+    display: block;
+    padding: 9px;
+    object-fit: contain;
+   padding-left: 3em;
+   padding-top: 2em;
+}
+il{
+    float: left;
+}
+il a{
+    display: block;
+    padding: 7px;
+    background-color: white;
+    color: gray;
+    text-decoration: none;
+    padding-top: 2em;
+}
+.board{
+    float: left;
+    width: 25px;
+    height: 20px;
+    display: block;
+    padding: 9px;
+    object-fit: contain;
+   padding-left: 1em;
+   padding-top: 2em;
+}
+.calender{
+    float: left;
+    width: 25px;
+    height: 20px;
+    display: block;
+    padding: 9px;
+    object-fit: contain;
+   padding-left: 1em;
+   padding-top: 2em;
+}
+.chardhorizontal{
+    float: left;
+    width: 25px;
+    height: 20px;
+    display: block;
+    padding: 9px;
+    object-fit: contain;
+   padding-left: 1em;
+   padding-top: 2em;
+}
+.daidien{
+    float: left;
+    width: 200px;
+    height: 100px;
+    display: block;
+    padding: 9px;
+    object-fit: contain;
+   padding-left: 1em;
+   padding-top: 2em;
+}
